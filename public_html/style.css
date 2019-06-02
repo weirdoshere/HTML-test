@@ -1,0 +1,206 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-Jun-2019, 11:37:28
+    Author     : aswinyegappan
+*/
+nav { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden; 
+} 
+
+
+
+
+#headder{
+
+   
+    /*padding: 45px 5px 50px 5px;*/
+    margin-bottom: 25px;
+    
+    border: 2px solid;
+     background-image:url("img/city.jpg");
+     background-position: top;
+     background-size: cover;
+    max-height: auto;
+    max-width: auto;
+   
+
+    
+}
+ 
+h2{font-family: Roboto; font-size: 24px; color:Blue ;  
+   /*border:3px solid #000;*/ 
+   /*padding: 20px 0px 0px 0px*/
+   
+}
+
+#background
+{
+   
+     
+    
+    
+}
+#aboutcon{
+    font-family: Roboto ;font-size: 25px; color: Black;
+  
+               background-color: rgba(237,238,230,0.7);
+               
+               display: inline-block;
+               border: 1px solid black;
+               padding:0px 15px 0px 15px;
+               text-align: center;
+               
+              
+               
+               
+              
+               
+}
+#avatar{
+    padding-top:10px;
+    padding-left: 20px;
+    
+    
+    float:left;
+   
+}
+#about{
+    
+    
+    float:left;
+    width:90%;
+    border: 2px solid black;
+    background-image: url(img/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: 50px;
+    
+    
+    
+    
+    
+    
+}
+
+  h5{
+   font-family: Roboto; font-size: 24px; color:Black ;background-color:rgba(237,238,230,0.7);  ;  
+   border:2px solid black;
+   margin: 5px 0px 0px 20px;
+   padding: 0px 0px 0px 20px
+        }       
+     
+   
+   p{
+      
+      
+       /*background-color: white;*/
+   }  
+   body{
+       
+       background:url("img/back.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: bottom;
+       
+        }
+  a{
+      
+      color:White;
+      text-decoration: none;
+        }       
+        
+ 
+        
+       
+ 
+ #repository
+ {
+     margin:20px 0px 20px 80px;
+     padding: 1px 100px 0px 1px;
+     float:left;
+     width:25%  ;
+         border:2px solid black;
+         
+ }
+#xda
+ {
+     margin:20px 0px 20px 80px;
+     padding: 5px 50px 68px 0px;
+     float:left;
+     width:40% ;
+         border:2px solid black;
+         
+ }
+ #vip
+ { margin:20px 250px 20px 300px;
+   
+   
+     
+     
+     width:50%;
+ }
+ #aboutc{
+     margin-left: 20px
+ }
+ #viper{
+     margin:10px 50px 0px 50px;
+     
+ }
+ 
+ #form{
+     border: 2px solid black;
+     margin-left:180px;
+     margin-top:40px; 
+     padding-left:30px;
+     padding-right: 0px;  
+     width: 35%;
+     padding-bottom:20px;
+ }
+ 
+ input{
+     
+     border: 2px solid black;
+ }
+ .container {
+    padding:20px;
+    margin: auto;
+	width:100%;
+    overflow-x: hidden;
+}
+
+@media (min-width:320px) {  .container {
+                                width: 320px;
+                            } }
+@media (min-width:481px) {   .container {
+                                 width: 481px;
+                             } }
+@media (min-width:641px) {   .container {
+                                 width: 641px;
+                             } }
+@media (min-width:961px) {   .container {
+                                 width: 961px;
+                             } }
+@media (min-width:1000px) {  .container {
+                                 width: 1000px;
+                             } }
+
+@media (max-width:481px) { 
+    .box {
+        width:100%;
+    } 
+    #image{
+        width:100%;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
